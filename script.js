@@ -10,14 +10,12 @@ function playRockPaperScissor(player1, player2){
         (player1 == papel && player2 == pedra)||
         (player1 == tesoura && player2 == papel)){
             return "Jogador 1 venceu!"
-    }
-    else if(
+    }else if(
         (player2 == pedra && player1 == tesoura)||
         (player2 == papel && player1 == pedra)||
         (player2 == tesoura && player1 == papel)){
             return "Jogador 2 venceu!"
-    }
-    else{
+    }else{
             return "Empate!"
     }
 } 
